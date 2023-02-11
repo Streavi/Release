@@ -1,0 +1,8 @@
+name: release
+on: push
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: ls -sla
